@@ -1,9 +1,8 @@
-import type { NextApiRequest } from "next";
 import { connectDB } from "../../../utils/connetDB";
 
 import Comment from "../../../models/comment-model";
 
-export const GET = async (req: NextApiRequest) => {
+export const GET = async (req: Request) => {
   try {
     await connectDB();
     const comments = await Comment.find({});

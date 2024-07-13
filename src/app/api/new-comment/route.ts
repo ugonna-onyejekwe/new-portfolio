@@ -1,6 +1,5 @@
 import Comment from "@/models/comment-model";
 import { connectDB } from "@/utils/connetDB";
-import type { NextApiRequest } from "next";
 
 export const POST = async (req: any) => {
   const { name, comment, postId } = await req.json();
