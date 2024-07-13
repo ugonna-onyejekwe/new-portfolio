@@ -19,11 +19,10 @@ export default function Work() {
     <>
       <NavBar routeLink="works" routeName="works" dark={false} />
 
-      {data.map((i) => {
-        console.log(i.name, work, i.name === work);
+      {data.map((i, key) => {
         return (
           i.name === work && (
-            <>
+            <div key={key}>
               <div className="work_container">
                 <div className="container">
                   <div className="heading">
@@ -91,9 +90,9 @@ export default function Work() {
                       spaceBetween={50}
                       slidesPerView={1}
                     >
-                      {i.resp_imgs.map((i) => {
+                      {i.resp_imgs.map((i, key) => {
                         return (
-                          <SwiperSlide className="swiper_box">
+                          <SwiperSlide key={key} className="swiper_box">
                             <div className="img">
                               <Image src={i} alt="image" />
                             </div>
@@ -109,7 +108,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           )
         );
       })}

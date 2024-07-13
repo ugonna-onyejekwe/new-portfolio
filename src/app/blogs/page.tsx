@@ -11,9 +11,9 @@ export default function Blogs() {
 
       <div className="blogs_container">
         <div className="container">
-          {blogs.map((i) => {
+          {blogs.map((i, key) => {
             return (
-              <div className="box">
+              <div className="box" key={key}>
                 <div className="img_con">
                   <Image src={i.image} alt="image" />
                 </div>

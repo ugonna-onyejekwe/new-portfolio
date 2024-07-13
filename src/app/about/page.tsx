@@ -58,7 +58,7 @@ export default function About() {
                 how to create websites and bring my own ideas to life through
                 write some lines of code and I landed my first job at Oge
                 Enterprise. Where my supervisor always referred to my work as
-                <b> "perfect"</b>. At that point I realised that am now a true
+                <b>"perfect"</b>. At that point I realised that am now a true
                 web developer.
               </p>
               <p>
@@ -85,11 +85,11 @@ export default function About() {
               </h4>
               <p>
                 The value that this company will provide is still yet to be
-                answered. Jim Rohn will say:{" "}
+                answered. Jim Rohn will say:
                 <b>
                   "Not every answer comes at once, u will figure it out along
                   the way while you move on".
-                </b>{" "}
+                </b>
                 Crazy again right? Lol.
               </p>
               <p>
@@ -117,12 +117,11 @@ export default function About() {
               <p>
                 Lastly, I will say this is the end of the wonderful story of my
                 life. Don't hesitate to contact me if you think I might be of
-                help.{" "}
+                help.
                 <b>
-                  {" "}
                   Don't forget that, my web development skills are still top
                   notch.
-                </b>{" "}
+                </b>
                 Thanks for reading.
               </p>
             </div>
@@ -133,13 +132,13 @@ export default function About() {
                 <li>
                   <span>
                     <PiDotOutline />
-                  </span>{" "}
+                  </span>
                   Best Tech Limited - <b> Frontend Developer (Internship)</b>
                 </li>
                 <li>
                   <span>
                     <PiDotOutline />
-                  </span>{" "}
+                  </span>
                   Oge Enterprise - <b>Frontend Developer</b>
                 </li>
               </ul>
@@ -155,7 +154,7 @@ export default function About() {
                 <span>reactjs</span> <small>/</small>
                 <span>Nextjs</span> <small>/</small>
                 <span>TypeScript</span> <small>/</small>
-                <span> State management(Redux/Redux-tool-kits)</span>{" "}
+                <span> State management(Redux/Redux-tool-kits)</span>
                 <small>/</small>
                 <span>Expressjs</span> <small>/</small>
                 <span>Nodejs</span> <small>/</small>
