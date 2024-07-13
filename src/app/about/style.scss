@@ -1,0 +1,153 @@
+@import "../../variables.scss";
+
+.about_container {
+  position: relative;
+  padding-bottom: 100px;
+
+  .container {
+    padding-top: 100px;
+
+    .img_con {
+      position: absolute;
+      width: 300px;
+      height: fit-content;
+      right: 0;
+      top: 10px;
+      z-index: -1;
+
+      img {
+        width: 100%;
+        height: 100%;
+        filter: grayscale(100%);
+      }
+    }
+
+    .wrapper {
+      width: 80%;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 70px;
+    }
+
+    h3 {
+      font-size: 20px;
+      max-width: 80%;
+      width: 100%;
+      padding-top: 20px;
+      color: $text_color_alt;
+    }
+
+    .txt_con {
+      margin-top: 30px;
+
+      p {
+        line-height: 25px;
+
+        b {
+          font-weight: 500;
+        }
+        &:not(:last-child) {
+          padding-bottom: 30px;
+        }
+      }
+
+      h4 {
+        font-size: 20px;
+        color: $text_color_alt;
+        padding-bottom: 30px;
+      }
+    }
+
+    section {
+      margin-top: 50px;
+
+      &.skill_section {
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          span {
+            font-weight: 500;
+          }
+
+          small {
+            color: rgb(156, 154, 154);
+          }
+        }
+      }
+
+      h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li {
+          display: flex;
+          gap: 5px;
+          line-height: 25px;
+
+          span {
+            font-size: 20px;
+            padding-top: 2px;
+          }
+        }
+      }
+
+      p {
+        font-weight: 500;
+        line-height: 25px;
+      }
+
+      .cv_btn {
+        margin-top: 50px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      padding-top: 150px;
+      .wrapper {
+        width: 100%;
+      }
+      h3 {
+        width: 70%;
+      }
+
+      .img_con {
+        top: 100px;
+        width: 250px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .img_con {
+        width: 200px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      padding-top: 180px;
+
+      .img_con {
+        top: 70px;
+        width: 180px;
+      }
+
+      h3 {
+        width: 100%;
+      }
+    }
+  }
+}

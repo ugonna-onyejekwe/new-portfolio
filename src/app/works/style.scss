@@ -1,0 +1,100 @@
+@import "../../variables.scss";
+
+.works_container {
+  background: $bg_color;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 100px;
+
+  .container {
+    display: flex;
+    gap: 100px;
+
+    .txt {
+      width: 400px;
+      padding-top: 40vh;
+
+      h5 {
+        font-size: 18px;
+        color: $text_color_light;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+
+      p {
+        color: $text_color_light_alt;
+        padding-top: 20px;
+      }
+    }
+
+    .works_wrapper {
+      width: calc(100% - 400px);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      height: 90vh;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding-bottom: 50px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      a {
+        transition: 0.4s ease;
+        p {
+          font-size: 80px;
+          font-family: $font2;
+          color: $text_color_light;
+          text-transform: uppercase;
+        }
+
+        span {
+          font-size: 20px;
+          text-transform: capitalize;
+          font-weight: 500;
+          color: $text_color_light_alt;
+        }
+        &:hover {
+          transform: translateX(20px);
+        }
+      }
+
+      @media (max-width: 1200px) {
+        a {
+          p {
+            font-size: 60px;
+          }
+        }
+
+        @media (max-width: 1024px) {
+          a p {
+            font-size: 40px;
+          }
+
+          a span {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      gap: 40px;
+
+      .txt {
+        width: 100%;
+        padding-top: 20px;
+      }
+
+      .works_wrapper {
+        height: fit-content;
+        overflow-y: visible;
+        width: 100%;
+      }
+    }
+  }
+}
