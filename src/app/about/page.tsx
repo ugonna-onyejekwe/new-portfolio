@@ -28,10 +28,10 @@ export default function About() {
                 finished secondary school. Becoming a microbiologist fascinate
                 me because I love exploring and loves to know more about
                 microorganisms. What motivated this goal of mine is that I have
-                always wondered how the things we don't see(microorganisms), are
-                things that have the biggest impact in our life. So I decided to
-                know more by studying microbiology in University of Nigeria
-                nsukka. Lucky enough I was admitted.
+                always wondered how the things we don&apos;t
+                see(microorganisms), are things that have the biggest impact in
+                our life. So I decided to know more by studying microbiology in
+                University of Nigeria nsukka. Lucky enough I was admitted.
               </p>
               <p>
                 But a day came when I witnessed website taking shape from lines
@@ -51,15 +51,15 @@ export default function About() {
               <p>
                 Studying these two courses has gone a long way for me in life.
                 At this point I understood the lovely quote of Jim Rohn when he
-                said: <b>"no knowledge is a waste"</b>.
+                said: <b>&quot;no knowledge is a waste&quot;</b>.
               </p>
               <p>
                 Years past, through my constant learning and practice. I learnt
                 how to create websites and bring my own ideas to life through
                 write some lines of code and I landed my first job at Oge
                 Enterprise. Where my supervisor always referred to my work as
-                <b>"perfect"</b>. At that point I realised that am now a true
-                web developer.
+                <b>&quot;perfect&quot;</b>. At that point I realised that am now
+                a true web developer.
               </p>
               <p>
                 Being a web developer has not only landed me a job, but it has
@@ -77,18 +77,19 @@ export default function About() {
                 is of high value to the world. Crazy right?
               </p>
               <p>
-                Yeah it's crazy. But Tony robbins said it well, when he said:
+                Yeah it&apos;s crazy. But Tony robbins said it well, when he
+                said:
               </p>
               <h4>
-                "That to become a great achievers you have to be a crazy person.
-                Taking decisions that people are afraid to take."
+                &quot;That to become a great achievers you have to be a crazy
+                person. Taking decisions that people are afraid to take.&quot;
               </h4>
               <p>
                 The value that this company will provide is still yet to be
                 answered. Jim Rohn will say:
                 <b>
-                  "Not every answer comes at once, u will figure it out along
-                  the way while you move on".
+                  &quot;Not every answer comes at once, u will figure it out
+                  along the way while you move on.&quot;
                 </b>
                 Crazy again right? Lol.
               </p>
@@ -97,8 +98,8 @@ export default function About() {
                 stoic. When he said:
               </p>
               <h4>
-                "the greatest education one could give to him self, is that of
-                self education."
+                &quot;the greatest education one could give to him self, is that
+                of self education.&quot;
               </h4>
 
               <p>
@@ -109,18 +110,18 @@ export default function About() {
 
               <p>
                 Reading books has help me unlock a world of new ideas. Being
-                able to see what others don't see. What keeps me motivated most
-                of the times is reading. At this point I will suggest that
-                reading should be a part of one's life
+                able to see what others don&apos;t see. What keeps me motivated
+                most of the times is reading. At this point I will suggest that
+                reading should be a part of one&apos;s life
               </p>
 
               <p>
                 Lastly, I will say this is the end of the wonderful story of my
-                life. Don't hesitate to contact me if you think I might be of
-                help.
+                life. Don&apos;t hesitate to contact me if you think I might be
+                of help.
                 <b>
-                  Don't forget that, my web development skills are still top
-                  notch.
+                  Don&apos;t forget that, my web development skills are still
+                  top notch.
                 </b>
                 Thanks for reading.
               </p>
