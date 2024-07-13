@@ -10,21 +10,33 @@
     justify-content: space-between;
     gap: 60px;
 
-    .txt {
+    .txt_con {
       width: 400px;
       padding-top: 60vh;
 
-      h5 {
+      h3 {
         text-transform: uppercase;
+        font-weight: 300;
+        color: $text_color;
+        font-size: 20px;
         font-weight: 500;
-        color: $text_color_alt2;
-        font-size: 17px;
+        font-family: $font3;
       }
 
       .job_tag {
-        padding: 15px 0;
         text-transform: capitalize;
-        font-weight: 500;
+        font-family: $font3;
+        font-weight: 400;
+        font-size: 16px;
+        color: $primary_color;
+        padding-top: 5px;
+      }
+
+      .txt {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
       }
     }
 
@@ -67,12 +79,13 @@
 
   @media (max-width: 900px) {
     margin-top: 130px;
+    height: fit-content;
 
     .container {
       flex-direction: column;
       gap: 40px;
 
-      .txt {
+      .txt_con {
         width: 100%;
         padding-top: 0;
       }

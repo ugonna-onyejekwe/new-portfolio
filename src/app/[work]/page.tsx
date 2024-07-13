@@ -29,8 +29,8 @@ export default function Work() {
                     <h1>{i.name}</h1>
                   </div>
 
-                  <div className="container breif">
-                    <h2>{i.breif}</h2>
+                  <div className="container ">
+                    <h2 className="breif">{i.breif}</h2>
                   </div>
 
                   <div className="box_wrapper container">
@@ -104,7 +104,10 @@ export default function Work() {
 
                   <div className="live_link_btn">
                     <h3>Check it out</h3>
-                    <button>{`https://${i.name}.com`}</button>
+                    <div className="btns">
+                      <button>live demo</button>
+                      <button>github repo</button>
+                    </div>
                   </div>
                 </div>
               </div>

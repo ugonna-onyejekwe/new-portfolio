@@ -11,13 +11,21 @@ export default function Home() {
 
       <div className="home_section">
         <div className="container">
-          <div className="txt">
-            <h5>onyejekwe ugonna </h5>
+          <div className="txt_con">
+            <h3>onyejekwe ugonna </h3>
 
             <p className="job_tag"> web developer / business strategist</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              in facere dolorem voluptatibus veritatis est
+            <p className="txt">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                culpa exercitationem voluptates ipsum nesciunt! Laboriosam
+                vitae, repudiandae iusto corrupti illum distinctio accusamus
+                quaerat corporis
+              </span>
+
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non
+              </span>
             </p>
           </div>
 

@@ -3,6 +3,10 @@ import "./style.scss";
 import Image from "next/image";
 import portfolio_image from "../../assets/profile_image.jpeg";
 import { PiDotOutline } from "react-icons/pi";
+import Link from "next/link";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { RiExternalLinkLine } from "react-icons/ri";
 
 export default function About() {
   return (
@@ -11,138 +15,112 @@ export default function About() {
 
       <div className="about_container">
         <div className="container">
-          <div className="img_con">
-            <Image src={portfolio_image} alt="portfolio image" />
-          </div>
-          {/* bTtfglrBcrjnsu6I */}
           <div className="wrapper">
-            <h1>about</h1>
-            <h3>
-              I am ugonna.
-              <br /> A web developer, business strategist and problem solver.
-            </h3>
+            <section className="info_section">
+              <div className="img_con">
+                <Image src={portfolio_image} alt="image" />
+              </div>
 
-            <div className="txt_con">
-              <p>
-                Becoming a microbiologist has always been a goal of mine after I
-                finished secondary school. Becoming a microbiologist fascinate
-                me because I love exploring and loves to know more about
-                microorganisms. What motivated this goal of mine is that I have
-                always wondered how the things we don&apos;t
-                see(microorganisms), are things that have the biggest impact in
-                our life. So I decided to know more by studying microbiology in
-                University of Nigeria nsukka. Lucky enough I was admitted.
-              </p>
-              <p>
-                But a day came when I witnessed website taking shape from lines
-                of code. How interesting. I never understand how wonderful the
-                Internet is and how marvellous a programmer could be, bring
-                ideas to life by writing codes, until that point in time.
-              </p>
-              <p>
-                Ever since then. Becoming a web developer became a burning
-                desire in me.
-              </p>
-              <p>
-                However, still studying microbiology in school and having fallen
-                in love with web development. I was left with no option than to
-                practice polygamy. Lol.
-              </p>
-              <p>
-                Studying these two courses has gone a long way for me in life.
-                At this point I understood the lovely quote of Jim Rohn when he
-                said: <b>&quot;no knowledge is a waste&quot;</b>.
-              </p>
-              <p>
-                Years past, through my constant learning and practice. I learnt
-                how to create websites and bring my own ideas to life through
-                write some lines of code and I landed my first job at Oge
-                Enterprise. Where my supervisor always referred to my work as
-                <b>&quot;perfect&quot;</b>. At that point I realised that am now
-                a true web developer.
-              </p>
-              <p>
-                Being a web developer has not only landed me a job, but it has
-                help me to become a critical thinker and a creative one for that
-                matter. Running multiple times into bugs has help me elevate
-                these two skills of mine and made me a pro problem-solver.
-              </p>
-              <p>
-                How amazing can having a bug in your code could be. But its very
-                stressful and annoying.
-              </p>
-              <p>
-                Aside being a web developer, I have a goal of becoming an
-                entrepreneur(business strategist). I want to have a company that
-                is of high value to the world. Crazy right?
-              </p>
-              <p>
-                Yeah it&apos;s crazy. But Tony robbins said it well, when he
-                said:
-              </p>
-              <h4>
-                &quot;That to become a great achievers you have to be a crazy
-                person. Taking decisions that people are afraid to take.&quot;
-              </h4>
-              <p>
-                The value that this company will provide is still yet to be
-                answered. Jim Rohn will say:
-                <b>
-                  &quot;Not every answer comes at once, u will figure it out
-                  along the way while you move on.&quot;
-                </b>
-                Crazy again right? Lol.
-              </p>
-              <p>
-                One of my favourite quote in life is that of seneca the great
-                stoic. When he said:
-              </p>
-              <h4>
-                &quot;the greatest education one could give to him self, is that
-                of self education.&quot;
-              </h4>
+              <div className="txt_con">
+                <h1>i&apos;m ugonna</h1>
+                <h4>
+                  A programmer, a blogger, a web developer, a critical thinker
+                  and a debugger
+                </h4>
 
-              <p>
-                This was one of the reason why I became a voracious reader. I
-                mostly enjoy reading philosophical and psychological book as the
-                help improve my life.
-              </p>
+                <div className="txt">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Expedita, saepe illum. Earum voluptas esse sit error ipsum
+                    officia reiciendis facere quidem obcaecati dolores, illo hic
+                    autem placeat, unde excepturi blanditiis.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Expedita, saepe illum. Earum voluptas esse sit error ipsum
+                    officia reiciendis facere quidem obcaecati dolores, illo hic
+                    autem placeat, unde excepturi blanditiis.
+                  </p>
+                </div>
 
-              <p>
-                Reading books has help me unlock a world of new ideas. Being
-                able to see what others don&apos;t see. What keeps me motivated
-                most of the times is reading. At this point I will suggest that
-                reading should be a part of one&apos;s life
-              </p>
+                <div className="socails">
+                  <Link href="">
+                    <FiGithub />
+                  </Link>
 
-              <p>
-                Lastly, I will say this is the end of the wonderful story of my
-                life. Don&apos;t hesitate to contact me if you think I might be
-                of help.
-                <b>
-                  Don&apos;t forget that, my web development skills are still
-                  top notch.
-                </b>
-                Thanks for reading.
-              </p>
-            </div>
+                  <Link href="">
+                    <FaLinkedinIn />
+                  </Link>
 
-            <section>
+                  <Link href="">
+                    <FaWhatsapp />
+                  </Link>
+                </div>
+              </div>
+            </section>
+
+            <section className="experience_section">
               <h2>experience</h2>
-              <ul>
-                <li>
-                  <span>
-                    <PiDotOutline />
-                  </span>
-                  Best Tech Limited - <b> Frontend Developer (Internship)</b>
-                </li>
-                <li>
-                  <span>
-                    <PiDotOutline />
-                  </span>
-                  Oge Enterprise - <b>Frontend Developer</b>
-                </li>
-              </ul>
+
+              <div className="box_con">
+                <div className="box">
+                  <div>
+                    <h6>2021 - present</h6>
+                  </div>
+                  <div>
+                    <h3>
+                      oge enterprise - <span>frontend developer</span>
+                    </h3>
+
+                    <p>
+                      Build, style, and ship high-quality websites, design
+                      systems, mobile apps, and digital experiences for a
+                      diverse array of projects for clients including Harvard
+                      Business School, Everytown for Gun Safety, Pratt
+                      Institute, Koala Health, Vanderbilt University, The 19th
+                      News, and more. Provide leadership within engineering
+                      department through close collaboration, knowledge shares,
+                      and spearheading the development of internal tools.
+                    </p>
+
+                    <div className="skills_con">
+                      <span>html</span> <small>/</small>
+                      <span>css</span> <small>/</small>
+                      <span>javascript</span> <small>/</small>
+                      <span>reactjs</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <div>
+                    <h6>2021 - present</h6>
+                  </div>
+                  <div>
+                    <h3>
+                      best tech limited - <span>frontend developer</span>
+                    </h3>
+
+                    <p>
+                      Build, style, and ship high-quality websites, design
+                      systems, mobile apps, and digital experiences for a
+                      diverse array of projects for clients including Harvard
+                      Business School, Everytown for Gun Safety, Pratt
+                      Institute, Koala Health, Vanderbilt University, The 19th
+                      News, and more. Provide leadership within engineering
+                      department through close collaboration, knowledge shares,
+                      and spearheading the development of internal tools.
+                    </p>
+
+                    <div className="skills_con">
+                      <span>html</span> <small>/</small>
+                      <span>css</span> <small>/</small>
+                      <span>javascript</span> <small>/</small>
+                      <span>reactjs</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
 
             <section className="skill_section">
@@ -166,9 +144,32 @@ export default function About() {
 
               <button className="cv_btn">my cv</button>
             </section>
+
+            <section className="achievement_section">
+              <h2>achievements</h2>
+              <div className="wrapper">
+                <Link href={"#"}>
+                  frontend developer certificate
+                  <span>
+                    <RiExternalLinkLine />
+                  </span>
+                </Link>
+
+                <Link href={"#"}>
+                  backend developer certificate
+                  <span>
+                    <RiExternalLinkLine />
+                  </span>
+                </Link>
+              </div>
+            </section>
           </div>
         </div>
       </div>
     </div>
   );
+}
+
+{
+  /* bTtfglrBcrjnsu6I */
 }

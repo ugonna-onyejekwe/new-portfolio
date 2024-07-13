@@ -21,7 +21,7 @@ export default function contact() {
             </li>
             <li>
               Socails: <Link href="">Linkedin</Link> /{" "}
-              <Link href={""}>Github</Link>
+              <Link href={""}>Github</Link> / <Link href={""}>whatApp</Link>
             </li>
           </ul>
         </div>

@@ -32,7 +32,7 @@
       width: calc(100% - 400px);
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 40px;
       height: 90vh;
       overflow-x: hidden;
       overflow-y: scroll;
@@ -49,6 +49,7 @@
           font-family: $font2;
           color: $text_color_light;
           text-transform: uppercase;
+          line-height: 80px;
         }
 
         span {
@@ -66,12 +67,14 @@
         a {
           p {
             font-size: 60px;
+            line-height: 60px;
           }
         }
 
         @media (max-width: 1024px) {
           a p {
             font-size: 40px;
+            line-height: 40px;
           }
 
           a span {
@@ -94,6 +97,10 @@
         height: fit-content;
         overflow-y: visible;
         width: 100%;
+
+        a p {
+          line-height: normal;
+        }
       }
     }
   }

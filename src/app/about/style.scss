@@ -1,152 +1,186 @@
 @import "../../variables.scss";
 
 .about_container {
-  position: relative;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  padding-bottom: 50px;
 
-  .container {
-    padding-top: 100px;
+  .wrapper {
+    .info_section {
+      display: flex;
+      gap: 30px;
+      align-items: center;
 
-    .img_con {
-      position: absolute;
-      width: 300px;
-      height: fit-content;
-      right: 0;
-      top: 10px;
-      z-index: -1;
-
-      img {
-        width: 100%;
-        height: 100%;
-        filter: grayscale(100%);
+      .img_con {
+        flex: 1;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 400px;
       }
-    }
 
-    .wrapper {
-      width: 80%;
-    }
+      .txt_con {
+        flex: 2;
 
-    h1 {
-      text-transform: uppercase;
-      font-size: 70px;
-    }
-
-    h3 {
-      font-size: 20px;
-      max-width: 80%;
-      width: 100%;
-      padding-top: 20px;
-      color: $text_color_alt;
-    }
-
-    .txt_con {
-      margin-top: 30px;
-
-      p {
-        line-height: 25px;
-
-        b {
-          font-weight: 500;
+        h1 {
+          font-size: 30px;
         }
-        &:not(:last-child) {
-          padding-bottom: 30px;
+
+        h4 {
+          font-size: 20px;
+          font-weight: 400;
+          padding-top: 10px;
+          color: $primary_color;
         }
-      }
 
-      h4 {
-        font-size: 20px;
-        color: $text_color_alt;
-        padding-bottom: 30px;
-      }
-    }
-
-    section {
-      margin-top: 50px;
-
-      &.skill_section {
-        .skills {
+        .txt {
           display: flex;
-          flex-wrap: wrap;
+          flex-direction: column;
+          gap: 10px;
+          line-height: 25px;
+          padding: 20px 0;
+        }
+
+        .socails {
+          display: flex;
           gap: 10px;
 
-          span {
+          a {
+            background: $text_color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            padding: 15px 20px;
+            color: white;
+            font-size: 13px;
+            transition: 0.4s ease;
+
+            &:hover {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 900px) {
+        flex-direction: column;
+      }
+    }
+
+    .experience_section {
+      margin-top: 70px;
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .box_con {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .box {
+          display: flex;
+          gap: 50px;
+
+          h6 {
+            text-transform: uppercase;
+            color: $primary_color;
+            white-space: nowrap;
+            font-size: 13px;
+            margin-top: 8px;
             font-weight: 500;
           }
 
-          small {
-            color: rgb(156, 154, 154);
+          h3 {
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 16px;
+          }
+
+          p {
+            padding: 20px 0;
+            line-height: 25px;
+          }
+
+          .skills_con {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            span {
+              font-weight: 500;
+              text-transform: capitalize;
+            }
+            small {
+              color: rgb(183, 177, 177);
+            }
           }
         }
       }
+
+      @media (max-width: 900px) {
+        .box_con .box {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+    }
+
+    .skill_section {
+      margin-top: 60px;
 
       h2 {
-        text-transform: uppercase;
-        font-size: 18px;
-        padding-bottom: 10px;
+        font-size: 20px;
       }
 
-      ul {
+      .skills {
+        padding: 20px 0;
         display: flex;
-        flex-direction: column;
         gap: 10px;
+        flex-wrap: wrap;
 
-        li {
-          display: flex;
-          gap: 5px;
-          line-height: 25px;
-
-          span {
-            font-size: 20px;
-            padding-top: 2px;
-          }
+        span {
+          font-weight: 500;
+          text-transform: capitalize;
+        }
+        small {
+          color: rgb(183, 177, 177);
         }
       }
-
-      p {
-        font-weight: 500;
-        line-height: 25px;
-      }
-
-      .cv_btn {
-        margin-top: 50px;
-      }
     }
 
-    @media (max-width: 900px) {
-      padding-top: 150px;
+    .achievement_section {
+      margin-top: 60px;
+
+      h2 {
+        font-size: 20px;
+      }
       .wrapper {
-        width: 100%;
-      }
-      h3 {
-        width: 70%;
-      }
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
 
-      .img_con {
-        top: 100px;
-        width: 250px;
-      }
-    }
+        a {
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 15px;
+          color: $text_color_alt;
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          transition: 0.4s ease;
 
-    @media (max-width: 800px) {
-      .img_con {
-        width: 200px;
-      }
+          &:hover {
+            color: $primary_color;
+          }
 
-      h1 {
-        font-size: 40px;
-      }
-    }
-
-    @media (max-width: 600px) {
-      padding-top: 180px;
-
-      .img_con {
-        top: 70px;
-        width: 180px;
-      }
-
-      h3 {
-        width: 100%;
+          span {
+            margin-top: 3px;
+          }
+        }
       }
     }
   }
