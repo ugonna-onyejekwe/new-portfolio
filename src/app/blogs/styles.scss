@@ -35,6 +35,12 @@
       @media (max-width: 768px) {
         min-width: 100%;
       }
+
+      @media (max-width: 500px) {
+        .img_con {
+          height: 230px;
+        }
+      }
     }
   }
 }
