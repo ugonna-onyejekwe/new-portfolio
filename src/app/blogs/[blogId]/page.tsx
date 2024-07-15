@@ -54,7 +54,7 @@ export default function Blog() {
                       onClick={() => {
                         const currentUrl = window.location.href;
                         window.open(
-                          `http://twitter.com/share?url=${encodeURIComponent(
+                          `http://twitter.com/intent/tweet?url=${encodeURIComponent(
                             currentUrl
                           )}&hashtags=${i.hashTag1},${i.hashTag2},${
                             i.hashTag3
