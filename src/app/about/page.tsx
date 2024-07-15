@@ -2,11 +2,11 @@ import { NavBar } from "@/components/navbar";
 import "./style.scss";
 import Image from "next/image";
 import portfolio_image from "../../assets/profile_image.jpeg";
-import { PiDotOutline } from "react-icons/pi";
 import Link from "next/link";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { RiExternalLinkLine } from "react-icons/ri";
+import { RxDotFilled } from "react-icons/rx";
 
 export default function About() {
   return (
@@ -44,15 +44,21 @@ export default function About() {
                 </div>
 
                 <div className="socails">
-                  <Link href="">
+                  <Link
+                    href="https://github.com/ugonna-onyejekwe"
+                    target="_blank"
+                  >
                     <FiGithub />
                   </Link>
 
-                  <Link href="">
+                  <Link
+                    href="https://www.linkedin.com/in/ugonna-onyejekwe/"
+                    target="_blank"
+                  >
                     <FaLinkedinIn />
                   </Link>
 
-                  <Link href="">
+                  <Link href="https://wa.me/08101330834" target="_blank">
                     <FaWhatsapp />
                   </Link>
                 </div>
@@ -148,19 +154,74 @@ export default function About() {
             <section className="achievement_section">
               <h2>achievements</h2>
               <div className="wrapper">
-                <Link href={"#"}>
-                  frontend developer certificate
-                  <span>
-                    <RiExternalLinkLine />
-                  </span>
-                </Link>
+                <div className="box">
+                  <Link
+                    href={
+                      "https://www.freecodecamp.org/certification/OnyejekweUgonna/responsive-web-design"
+                    }
+                    target="_blank"
+                  >
+                    responsive web design certificate - freeCodeCamp
+                    <span>
+                      <RiExternalLinkLine />
+                    </span>
+                  </Link>
 
-                <Link href={"#"}>
-                  backend developer certificate
-                  <span>
-                    <RiExternalLinkLine />
-                  </span>
-                </Link>
+                  <ul>
+                    <li>
+                      {" "}
+                      <span>
+                        <RxDotFilled />
+                      </span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                    </li>
+
+                    <li>
+                      {" "}
+                      <span>
+                        <RxDotFilled />
+                      </span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="box">
+                  <Link
+                    href={
+                      "https://www.freecodecamp.org/certification/OnyejekweUgonna/javascript-algorithms-and-data-structures-v8"
+                    }
+                    target="_blank"
+                  >
+                    javaScript algorithms and data structures(BETA) -{" "}
+                    freeCodeCamp
+                    <span>
+                      <RiExternalLinkLine />
+                    </span>
+                  </Link>
+
+                  <ul>
+                    <li>
+                      {" "}
+                      <span>
+                        <RxDotFilled />
+                      </span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                    </li>
+
+                    <li>
+                      {" "}
+                      <span>
+                        <RxDotFilled />
+                      </span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
           </div>
@@ -168,8 +229,4 @@ export default function About() {
       </div>
     </div>
   );
-}
-
-{
-  /* bTtfglrBcrjnsu6I */
 }

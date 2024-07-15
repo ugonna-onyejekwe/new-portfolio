@@ -20,8 +20,24 @@ export default function contact() {
               Email: <Link href={""}>onyejekweugonna01@gmail.com</Link>
             </li>
             <li>
-              Socails: <Link href="">Linkedin</Link> /{" "}
-              <Link href={""}>Github</Link> / <Link href={""}>whatApp</Link>
+              Socails:{" "}
+              <Link
+                href="https://www.linkedin.com/in/ugonna-onyejekwe/"
+                target="_blank"
+              >
+                Linkedin
+              </Link>{" "}
+              /{" "}
+              <Link
+                href={"https://github.com/ugonna-onyejekwe"}
+                target="_blank"
+              >
+                Github
+              </Link>{" "}
+              /{" "}
+              <Link href={"https://wa.me/08101330834"} target="_blank">
+                whatApp
+              </Link>
             </li>
           </ul>
         </div>

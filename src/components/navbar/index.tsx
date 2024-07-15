@@ -24,10 +24,16 @@ export const NavBar = ({
             </div>
           ) : (
             <div className="socail_links">
-              <Link href={""}>
+              <Link
+                href={"https://github.com/ugonna-onyejekwe"}
+                target="_blank"
+              >
                 <FiGithub />
               </Link>
-              <Link href={""}>
+              <Link
+                href={"https://www.linkedin.com/in/ugonna-onyejekwe/"}
+                target="_blank"
+              >
                 <FaLinkedinIn />
               </Link>
             </div>

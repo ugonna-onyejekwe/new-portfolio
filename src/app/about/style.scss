@@ -160,25 +160,46 @@
         margin-top: 15px;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 20px;
 
-        a {
-          text-transform: capitalize;
-          font-weight: 500;
-          font-size: 15px;
-          color: $text_color_alt;
-          text-transform: capitalize;
-          display: flex;
-          align-items: center;
-          gap: 5px;
-          transition: 0.4s ease;
+        .box {
+          a {
+            text-transform: capitalize;
+            font-size: 15px;
+            color: $text_color;
+            font-weight: 500;
+            transition: 0.4s ease;
 
-          &:hover {
-            color: $primary_color;
+            span {
+              font-size: 15px;
+              color: $text_color;
+              padding: 10px 0 0 10px;
+            }
+
+            &:hover {
+              color: $primary_color;
+
+              span {
+                color: $primary_color;
+              }
+            }
           }
 
-          span {
-            margin-top: 3px;
+          ul {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            li {
+              display: flex;
+              gap: 5px;
+
+              span {
+                margin-top: 1px;
+                font-size: 16px;
+              }
+            }
           }
         }
       }
