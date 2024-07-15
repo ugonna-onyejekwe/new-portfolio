@@ -54,7 +54,11 @@ export default function Blog() {
                       onClick={() => {
                         const currentUrl = window.location.href;
                         window.open(
-                          `http://twitter.com/share?url=${currentUrl}&hashtags=${i.hashTag1},${i.hashTag2},${i.hashTag3}`,
+                          `http://twitter.com/share?url=${encodeURIComponent(
+                            currentUrl
+                          )}&hashtags=${i.hashTag1},${i.hashTag2},${
+                            i.hashTag3
+                          }`,
                           "_blank"
                         );
                       }}
@@ -66,7 +70,9 @@ export default function Blog() {
                       onClick={() => {
                         const currentUrl = window.location.href;
                         window.open(
-                          `https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}`,
+                          `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                            currentUrl
+                          )}`,
                           "_blank"
                         );
                       }}
