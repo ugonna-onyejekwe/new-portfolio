@@ -176,6 +176,9 @@ export const blogs = [
     id: 1,
     title: "the mantle of minners",
     desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
+    hashTag1: "motivation",
+    hashTag2: "inspiration",
+    hashTag3: "health",
   },
 
   {
@@ -197,38 +200,5 @@ export const blogs = [
     id: 4,
     title: "the mantle of minners",
     desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
-  },
-];
-
-export const comments = [
-  {
-    postId: 1,
-    name: "henry",
-    comment:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus",
-  },
-  {
-    postId: 1,
-    name: "henry",
-    comment:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus",
-  },
-  {
-    postId: 1,
-    name: "henry",
-    comment:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus",
-  },
-  {
-    postId: 1,
-    name: "henry",
-    comment:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus",
-  },
-  {
-    postId: 1,
-    name: "henry",
-    comment:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus",
   },
 ];

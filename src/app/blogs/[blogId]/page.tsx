@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import "./style.scss";
 import { FaHandHoldingHeart, FaLink, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Blog() {
   const { blogId } = useParams();
@@ -40,16 +41,37 @@ export default function Blog() {
                   </p>
 
                   <div className="socails">
-                    <span>
+                    <span
+                      onClick={() => {
+                        const currentUrl = window.location.href;
+                        navigator.clipboard.writeText(currentUrl);
+                      }}
+                    >
                       <FaLink />
                     </span>
 
-                    <span>
-                      <FaLinkedinIn />
+                    <span
+                      onClick={() => {
+                        const currentUrl = window.location.href;
+                        window.open(
+                          `http://twitter.com/share?url=${currentUrl}&hashtags=${i.hashTag1},${i.hashTag2},${i.hashTag3}`,
+                          "_blank"
+                        );
+                      }}
+                    >
+                      <FaXTwitter />
                     </span>
 
-                    <span>
-                      <FaXTwitter />
+                    <span
+                      onClick={() => {
+                        const currentUrl = window.location.href;
+                        window.open(
+                          `https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}`,
+                          "_blank"
+                        );
+                      }}
+                    >
+                      <FaLinkedinIn />
                     </span>
                   </div>
                 </div>
