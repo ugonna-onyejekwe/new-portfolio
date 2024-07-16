@@ -17,7 +17,10 @@ export default function contact() {
 
           <ul>
             <li>
-              Email: <Link href={""}>onyejekweugonna01@gmail.com</Link>
+              Email:{" "}
+              <Link href={"mailto:onyejekweugonna01@gmail.com"}>
+                onyejekweugonna01@gmail.com
+              </Link>
             </li>
             <li>
               Socails:{" "}

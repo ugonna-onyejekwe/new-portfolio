@@ -25,10 +25,10 @@ export default function works() {
           </div>
 
           <div className="works_wrapper">
-            <Link href={"/kaluxia"}>
+            {/* <Link href={"/kaluxia"}>
               <p>kaluxia</p>
               <span>- full stack developer</span>{" "}
-            </Link>
+            </Link> */}
             <Link href="/activelearn">
               <p>activelearn</p>
               <span>- frontend developer</span>

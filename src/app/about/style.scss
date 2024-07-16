@@ -28,6 +28,7 @@
           font-size: 20px;
           font-weight: 400;
           padding-top: 10px;
+          line-height: 23px;
           color: $primary_color;
         }
 
@@ -36,7 +37,7 @@
           flex-direction: column;
           gap: 10px;
           line-height: 25px;
-          padding: 20px 0;
+          padding: 15px 0 20px 0;
         }
 
         .socails {
@@ -99,7 +100,7 @@
           }
 
           p {
-            padding: 20px 0;
+            padding: 15px 0 18px 0;
             line-height: 25px;
           }
 
@@ -167,13 +168,13 @@
             text-transform: capitalize;
             font-size: 15px;
             color: $text_color;
-            font-weight: 500;
+            font-weight: 600;
             transition: 0.4s ease;
 
             span {
               font-size: 15px;
               color: $text_color;
-              padding: 10px 0 0 10px;
+              padding: 5px 0 0 5px;
             }
 
             &:hover {
@@ -198,6 +199,14 @@
               span {
                 margin-top: 1px;
                 font-size: 16px;
+              }
+
+              b {
+                font-weight: 500;
+              }
+
+              p {
+                line-height: 25px;
               }
             }
           }

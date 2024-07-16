@@ -3,6 +3,7 @@
 import { NavBar } from "@/components/navbar";
 import "./page.scss";
 import Link from "next/link";
+// import Translate1 from "@/animation-components/translate";
 
 export default function Home() {
   return (
@@ -12,21 +13,28 @@ export default function Home() {
       <div className="home_section">
         <div className="container">
           <div className="txt_con">
+            {/* <Translate1> */}
             <h3>onyejekwe ugonna </h3>
+            {/* </Translate1> */}
 
-            <p className="job_tag"> web developer / business strategist</p>
+            {/* <Translate1> */}
+            <p className="job_tag"> a frontend developer / a debugger</p>
+            {/* </Translate1> */}
+
+            {/* <Translate1> */}
             <p className="txt">
               <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                culpa exercitationem voluptates ipsum nesciunt! Laboriosam
-                vitae, repudiandae iusto corrupti illum distinctio accusamus
-                quaerat corporis
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Officia expedita dicta voluptatibus dignissimos culpa veritatis,
+                reprehenderit provident consequatur nemo excepturi nostrum.
+                Ullam ducimus facere illum quia? Aperiam inventore quaerat id.
               </span>
 
               <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non
               </span>
             </p>
+            {/* </Translate1> */}
           </div>
 
           <div className="navigators">

@@ -33,6 +33,8 @@ import splend_mobile from "../../assets/splend-mobile.png";
 import splend_tab from "../../assets/splend-tab.png";
 import splend_desk from "../../assets/splend-desk.png";
 
+import blog1 from "../../assets/blog1.jpeg";
+
 export const data = [
   {
     name: "splendior",
@@ -172,13 +174,13 @@ export const data = [
 
 export const blogs = [
   {
-    image: movie2,
+    image: blog1,
     id: 1,
-    title: "the mantle of minners",
-    desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
-    hashTag1: "motivation",
-    hashTag2: "inspiration",
-    hashTag3: "health",
+    title: "own your morning, elevate their life",
+    desc: "<p>Most people don't know the power of owning your morning.</p><p>They hit snooze, scroll through their phones, and jump into the day on autopilot. But what if I told you this precious time holds the key to unlocking a more successful, energized you?</p> <p>The truth is, the morning is a very special moment. If you understand its value, it can become your personal launchpad for an amazing day.</p><p>It's a space of absolute tranquility, free from the noise and demands of the day ahead. This quiet power allows you to connect with your inner self, the wellspring of your potential.</p><p>Don't waste this golden opportunity on activities that zap your energy. Scrolling through social media first thing can leave you feeling scattered and unfocused. Instead, utilize this time for activities that elevate your mind, body, and spirit.</p><p>Take a moment to meditate. Close your eyes, focus on your breath, and allow yourself to find a sense of calm. Envision your dreams. See yourself achieving your goals, feel the emotions of success, and solidify that positive intention for the day.</p><p>Remember, the morning sets the tone for your entire day.</p><p>Never do anything in those precious first hours that leaves you feeling drained or negative.</p><p>Instead, do things that awaken the life in you, things that energize you. It can be reading, a workout, spending time in nature, or whatever sparks joy and sets you up for a winning day.</p><p>The most successful people throughout history have sworn by the power of the morning routine.</p><p>Think about Jeff Bezos, waking up at 4 am for quiet focus.</p><p>Elon Musk uses the morning to fuel his innovative spirit.</p><p>Even closer to home, Tony Elumelu emphasizes the importance of rising before the sun.</p><p>These high achievers understand that by owning their mornings, they're taking control of their day and setting themselves up for peak performance.</p><p>So ditch the snooze button and own your morning!</p><p>Utilize that quiet power for your own success. Watch your entire life elevate as you start each day feeling energized, focused, and ready to conquer anything that comes your way!</p>",
+    hashTag1: "Motivation",
+    hashTag2: "Inspiration",
+    hashTag3: "Mindset",
   },
 
   {
@@ -186,6 +188,9 @@ export const blogs = [
     id: 2,
     title: "the mantle of minners",
     desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
+    hashTag1: "Motivation",
+    hashTag2: "Inspiration",
+    hashTag3: "Mindset",
   },
 
   {
@@ -193,6 +198,9 @@ export const blogs = [
     id: 3,
     title: "the mantle of minners",
     desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
+    hashTag1: "Motivation",
+    hashTag2: "Inspiration",
+    hashTag3: "Mindset",
   },
 
   {
@@ -200,5 +208,8 @@ export const blogs = [
     id: 4,
     title: "the mantle of minners",
     desc: "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id! </p>  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor labore nulla, inventore provident corporis blanditiis! Saepe repellendus doloremque temporibus inventore, labore voluptate soluta, ipsa praesentium ullam rem, accusantium id!</p>",
+    hashTag1: "Motivation",
+    hashTag2: "Inspiration",
+    hashTag3: "Mindset",
   },
 ];

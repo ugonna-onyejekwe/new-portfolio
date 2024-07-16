@@ -24,22 +24,23 @@ export default function About() {
               <div className="txt_con">
                 <h1>i&apos;m ugonna</h1>
                 <h4>
-                  A programmer, a blogger, a web developer, a critical thinker
-                  and a debugger
+                  A web developer who combines some line of code and some
+                  creative insight to deliver a wonderful web interface.
                 </h4>
 
                 <div className="txt">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Expedita, saepe illum. Earum voluptas esse sit error ipsum
-                    officia reiciendis facere quidem obcaecati dolores, illo hic
-                    autem placeat, unde excepturi blanditiis.
+                    Witnessing a website come alive from code ignited a passion
+                    for web development that burns brightly to this day. Years
+                    of learning, practice, and debugging have sharpened my
+                    skills. Web development isn't just a career; it's a constant
+                    challenge that hones my critical thinking, creativity, and
+                    problem-solving abilities.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Expedita, saepe illum. Earum voluptas esse sit error ipsum
-                    officia reiciendis facere quidem obcaecati dolores, illo hic
-                    autem placeat, unde excepturi blanditiis.
+                    Currently at Oge Enterprise, I collaborate with backend devs
+                    and designers to craft amazing websites with flawless user
+                    experiences.
                   </p>
                 </div>
 
@@ -71,36 +72,42 @@ export default function About() {
               <div className="box_con">
                 <div className="box">
                   <div>
-                    <h6>2021 - present</h6>
+                    <h6>2023 - present</h6>
                   </div>
                   <div>
                     <h3>
-                      oge enterprise - <span>frontend developer</span>
+                      oge enterprise -{" "}
+                      <span>frontend developer / mern stack developer</span>
                     </h3>
 
                     <p>
-                      Build, style, and ship high-quality websites, design
-                      systems, mobile apps, and digital experiences for a
-                      diverse array of projects for clients including Harvard
-                      Business School, Everytown for Gun Safety, Pratt
-                      Institute, Koala Health, Vanderbilt University, The 19th
-                      News, and more. Provide leadership within engineering
-                      department through close collaboration, knowledge shares,
-                      and spearheading the development of internal tools.
+                      At Oge Enterprise, I wear multiple hats as a full-stack
+                      developer. My frontend expertise with ReactJS, Next.js,
+                      and Sass allows me to create dynamic and responsive
+                      websites. Additionally, I leverage state management tools
+                      like Redux and Redux Toolkit to ensure efficient data
+                      handling and a smooth user experience. When needed, I can
+                      switch gears and utilize backend tools like Express,
+                      MongoDB, and Node.js to develop full-stack applications,
+                      ensuring a seamless integration between front-end and
+                      back-end functionalities.
                     </p>
 
                     <div className="skills_con">
-                      <span>html</span> <small>/</small>
-                      <span>css</span> <small>/</small>
-                      <span>javascript</span> <small>/</small>
-                      <span>reactjs</span>
+                      <span>Reactjs</span> <small>/</small>
+                      <span>scss</span> <small>/</small>
+                      <span>nextjs</span> <small>/</small>
+                      <span>expressjs</span> <small>/</small>
+                      <span>nodejs</span> <small>/</small>
+                      <span>mongoDb</span> <small>/</small>
+                      <span>redux</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="box">
                   <div>
-                    <h6>2021 - present</h6>
+                    <h6>2022 - 2023</h6>
                   </div>
                   <div>
                     <h3>
@@ -108,21 +115,17 @@ export default function About() {
                     </h3>
 
                     <p>
-                      Build, style, and ship high-quality websites, design
-                      systems, mobile apps, and digital experiences for a
-                      diverse array of projects for clients including Harvard
-                      Business School, Everytown for Gun Safety, Pratt
-                      Institute, Koala Health, Vanderbilt University, The 19th
-                      News, and more. Provide leadership within engineering
-                      department through close collaboration, knowledge shares,
-                      and spearheading the development of internal tools.
+                      I honed my skills as a frontend developer at Best Tech
+                      Limited, working with HTML, CSS, and JavaScript to bring
+                      user interfaces to life. In this collaborative role, I
+                      interacted closely with backend developers and designers
+                      to ensure a seamless user experience across projects.
                     </p>
 
                     <div className="skills_con">
                       <span>html</span> <small>/</small>
                       <span>css</span> <small>/</small>
-                      <span>javascript</span> <small>/</small>
-                      <span>reactjs</span>
+                      <span>javascript</span>
                     </div>
                   </div>
                 </div>
@@ -173,8 +176,11 @@ export default function About() {
                       <span>
                         <RxDotFilled />
                       </span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                      <p>
+                        <b>Responsive Design Master:</b> Build websites that
+                        flawlessly adapt to any screen size (desktop, mobile,
+                        tablet) using media queries, flexbox, and CSS Grid.
+                      </p>
                     </li>
 
                     <li>
@@ -182,8 +188,12 @@ export default function About() {
                       <span>
                         <RxDotFilled />
                       </span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                      <p>
+                        <b>Web Development Fundamentals:</b> Gain a solid
+                        foundation in HTML, CSS, and JavaScript, the essential
+                        building blocks for crafting well-structured, visually
+                        appealing, and interactive websites.
+                      </p>
                     </li>
                   </ul>
                 </div>
@@ -195,8 +205,8 @@ export default function About() {
                     }
                     target="_blank"
                   >
-                    javaScript algorithms and data structures(BETA) -{" "}
-                    freeCodeCamp
+                    javaScript algorithms and data structures(BETA) certificate
+                    - freeCodeCamp
                     <span>
                       <RiExternalLinkLine />
                     </span>
@@ -208,8 +218,11 @@ export default function About() {
                       <span>
                         <RxDotFilled />
                       </span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                      <p>
+                        <b> Algorithm Ninja:</b> Mastered algorithmic
+                        problem-solving to efficiently tackle complex coding
+                        challenges.
+                      </p>
                     </li>
 
                     <li>
@@ -217,8 +230,11 @@ export default function About() {
                       <span>
                         <RxDotFilled />
                       </span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, ex dolorum quod optio veritatis, dicta{" "}
+                      <p>
+                        <b> Data Structure Guru:</b> Gained expertise in core
+                        data structures (arrays, linked lists, etc.) to optimize
+                        code performance.
+                      </p>
                     </li>
                   </ul>
                 </div>
