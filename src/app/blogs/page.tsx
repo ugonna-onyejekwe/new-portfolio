@@ -30,7 +30,7 @@ export default function Blogs() {
         <div className="container">
           {blogs.map((i, key) => {
             return (
-              <AnimateX>
+              <AnimateX key={key}>
                 <div className="box" key={key}>
                   <div className="img_con">
                     <Image src={i.image} alt="image" />
