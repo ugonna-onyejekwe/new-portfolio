@@ -84,13 +84,18 @@
           display: flex;
           gap: 50px;
 
-          h6 {
-            text-transform: uppercase;
-            color: $primary_color;
-            white-space: nowrap;
-            font-size: 13px;
-            margin-top: 8px;
-            font-weight: 500;
+          .date_con {
+            min-width: 120px;
+            width: 120px;
+
+            h6 {
+              text-transform: uppercase;
+              color: $primary_color;
+              white-space: nowrap;
+              font-size: 13px;
+              margin-top: 8px;
+              font-weight: 500;
+            }
           }
 
           h3 {

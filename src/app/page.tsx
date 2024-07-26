@@ -1,28 +1,51 @@
 "use client";
-
 import { NavBar } from "@/components/navbar";
 import "./page.scss";
 import Link from "next/link";
-// import Translate1 from "@/animation-components/translate";
+import { motion } from "framer-motion";
+
+import {
+  pageOverLayOpener,
+  txtAnim,
+  NavAnim,
+  txtConAnim,
+} from "../animation-components/global";
 
 export default function Home() {
   return (
     <div className="section_wrapper">
+      {/* page  overlay*/}
+      <motion.div
+        style={{
+          background: "black",
+        }}
+        className="page_overlay"
+        variants={pageOverLayOpener}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      />
+      {/* page overlay */}
+
       <NavBar />
 
       <div className="home_section">
         <div className="container">
-          <div className="txt_con">
-            {/* <Translate1> */}
-            <h3>onyejekwe ugonna </h3>
-            {/* </Translate1> */}
+          <motion.div
+            className="txt_con"
+            variants={txtConAnim}
+            initial="hidden"
+            animate="visible"
+            exit={"exit"}
+          >
+            <motion.h3 variants={txtAnim}>onyejekwe ugonna </motion.h3>
 
-            {/* <Translate1> */}
-            <p className="job_tag"> a frontend developer / a debugger</p>
-            {/* </Translate1> */}
+            <motion.p variants={txtAnim} className="job_tag">
+              {" "}
+              a frontend developer / a debugger
+            </motion.p>
 
-            {/* <Translate1> */}
-            <p className="txt">
+            <motion.p variants={txtAnim} className="txt">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Officia expedita dicta voluptatibus dignissimos culpa veritatis,
@@ -33,16 +56,21 @@ export default function Home() {
               <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non
               </span>
-            </p>
-            {/* </Translate1> */}
-          </div>
+            </motion.p>
+          </motion.div>
 
-          <div className="navigators">
+          <motion.div
+            variants={NavAnim}
+            initial="hidden"
+            animate="visible"
+            exit={"exit"}
+            className="navigators"
+          >
             <Link href={"/works"}>works</Link>
             <Link href={"/about"}>about</Link>
             <Link href={"/blogs"}>blogs</Link>
             <Link href={"/contact"}>contact</Link>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

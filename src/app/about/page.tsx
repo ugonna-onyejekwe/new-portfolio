@@ -1,3 +1,5 @@
+"use client";
+
 import { NavBar } from "@/components/navbar";
 import "./style.scss";
 import Image from "next/image";
@@ -7,10 +9,26 @@ import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { RiExternalLinkLine } from "react-icons/ri";
 import { RxDotFilled } from "react-icons/rx";
+import { motion } from "framer-motion";
+import { pageOverLayOpener, txtConAnim } from "@/animation-components/global";
+import { ImageAnim } from "@/animation-components/aboutAnim";
 
 export default function About() {
   return (
     <div className="section_wrapper">
+      {/* page  overlay*/}
+      <motion.div
+        style={{
+          background: "black",
+        }}
+        className="page_overlay"
+        variants={pageOverLayOpener}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      />
+      {/* page overlay */}
+
       <NavBar routeLink="/" routeName="home" dark={false} />
 
       <div className="about_container">
@@ -18,33 +36,41 @@ export default function About() {
           <div className="wrapper">
             <section className="info_section">
               <div className="img_con">
-                <Image src={portfolio_image} alt="image" />
+                <ImageAnim>
+                  <Image src={portfolio_image} alt="image" />
+                </ImageAnim>
               </div>
 
-              <div className="txt_con">
-                <h1>i&apos;m ugonna</h1>
-                <h4>
+              <motion.div
+                variants={txtConAnim}
+                initial="hidden"
+                animate="visible"
+                className="txt_con"
+              >
+                <motion.h1>i&apos;m ugonna</motion.h1>
+                <motion.h4>
                   A web developer who combines some line of code and some
                   creative insight to deliver a wonderful web interface.
-                </h4>
+                </motion.h4>
 
-                <div className="txt">
+                <motion.div className="txt">
                   <p>
                     Witnessing a website come alive from code ignited a passion
-                    for web development that burns brightly to this day. Years
-                    of learning, practice, and debugging have sharpened my
-                    skills. Web development isn't just a career; it's a constant
-                    challenge that hones my critical thinking, creativity, and
-                    problem-solving abilities.
+                    for web development that burns brightly in me today. With
+                    years of constant learning, practicing, and debugging I have
+                    sharpened my skills. Web development isn't just a career to
+                    me; it is a constant challenge that helps me cultivate on my
+                    critical thinking, creativity, and problem-solving
+                    abilities.
                   </p>
                   <p>
-                    Currently at Oge Enterprise, I collaborate with backend devs
-                    and designers to craft amazing websites with flawless user
-                    experiences.
+                    Currently working at Oge Enterprise, I collaborate with
+                    backend devs and designers to craft amazing websites with
+                    flawless user experiences.
                   </p>
-                </div>
+                </motion.div>
 
-                <div className="socails">
+                <motion.div className="socails">
                   <Link
                     href="https://github.com/ugonna-onyejekwe"
                     target="_blank"
@@ -62,8 +88,8 @@ export default function About() {
                   <Link href="https://wa.me/08101330834" target="_blank">
                     <FaWhatsapp />
                   </Link>
-                </div>
-              </div>
+                </motion.div>
+              </motion.div>
             </section>
 
             <section className="experience_section">
@@ -71,7 +97,7 @@ export default function About() {
 
               <div className="box_con">
                 <div className="box">
-                  <div>
+                  <div className="date_con">
                     <h6>2023 - present</h6>
                   </div>
                   <div>
@@ -106,7 +132,7 @@ export default function About() {
                 </div>
 
                 <div className="box">
-                  <div>
+                  <div className="date_con">
                     <h6>2022 - 2023</h6>
                   </div>
                   <div>

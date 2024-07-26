@@ -6,31 +6,56 @@ import { useParams } from "next/navigation";
 import "./style.scss";
 import { FaHandHoldingHeart, FaLink, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import Link from "next/link";
+import { motion } from "framer-motion";
+import {
+  pageOverLayOpener,
+  txtAnim,
+  txtConAnim,
+} from "@/animation-components/global";
 
 export default function Blog() {
   const { blogId } = useParams();
 
   return (
     <>
+      {/* page  overlay*/}
+      <motion.div
+        style={{
+          background: "black",
+        }}
+        className="page_overlay"
+        variants={pageOverLayOpener}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      />
+      {/* page overlay */}
+
       <NavBar routeLink="blogs" routeName="blogs" />
 
-      <div className="blog_container">
+      <motion.div
+        className="blog_container"
+        variants={txtConAnim}
+        initial="hidden"
+        animate="visible"
+        exit={"exit"}
+      >
         {blogs.map((i, key) => {
           if (i.id.toString() === blogId)
             return (
               <div className="container" key={key}>
                 <div className="title">
-                  <h3>{i.title}</h3>
+                  <motion.h3 variants={txtAnim}>{i.title}</motion.h3>
                 </div>
-                <div className="img_con">
+                <motion.div variants={txtAnim} className="img_con">
                   <Image src={i.image} alt="image" />
-                </div>
+                </motion.div>
 
-                <div
+                <motion.div
+                  variants={txtAnim}
                   className="txt_con"
                   dangerouslySetInnerHTML={{ __html: i.desc }}
-                ></div>
+                ></motion.div>
 
                 <div className="share_section">
                   <p>
@@ -84,7 +109,7 @@ export default function Blog() {
               </div>
             );
         })}
-      </div>
+      </motion.div>
     </>
   );
 }
